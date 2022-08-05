@@ -19,7 +19,7 @@ namespace HalkBank.Collections.Generics
         }
 
         public int ElemanSayisi => _dizi.Length;
-        public static int MaxElemanSayisi { get; set; } = 5;
+        public static int MaxElemanSayisi { get; set; } = 10;
 
         public T this[int index] //C# 7.0
         {
